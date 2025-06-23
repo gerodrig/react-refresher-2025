@@ -1,0 +1,44 @@
+.itemRow {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .item-text {
+    width: 150px;
+  }
+
+  .add-button {
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    margin-left: 10px;
+  }
+
+  .add-button:hover {
+    background-color: green;
+    color: white;
+  }
+  
+  .substract-button {
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    margin-left: 10px;
+  }
+
+  .substract-button:hover {
+    background-color: red;
+    color: white;
+  }
+  
+  .red {
+    color: red;
+  }
