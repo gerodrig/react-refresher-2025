@@ -4,10 +4,10 @@ import styles from './ItemCounter.module.css';
 
 interface Props {
     name: string;
-    quantity: number;
+    quantity?: number;
 }
 
-const ItemCounter = ({ name, quantity = 1 }: Props) => {
+export const ItemCounter = ({ name, quantity = 1 }: Props) => {
     const [count, setCount] = useState(quantity);
 
     const handleAdd = () => {
@@ -44,5 +44,3 @@ const ItemCounter = ({ name, quantity = 1 }: Props) => {
         </section>
     )
 }
-
-export default ItemCounter
